@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <title>MNIST Digits Simples</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mnist/1.1.0/mnist.js"></script>
+	<script src="http://linux.ria.ua/mnist_brain/dist/build.js"></script>
+    <script src="mainfront.js"></script>
+    <script>
+        console.log(window["nn"]);
+    </script>
+    <style>
+        body {
+			color: #666;
+			margin: 0;
+            font-family:Arial;
+			background: url('https://media.giphy.com/media/WoD6JZnwap6s8/giphy.gif') no-repeat center;
+        }
+		main{
+			background: #000;
+			margin: 50px 0;
+			padding: 10px 0;
+		}
+		h1{
+			padding: 10px;
+		}
+        #container {
+            position:relative;
+            width: 50%;
+			margin: auto;
+        }
+        #sketchpad {
+            border: 5px solid #083;
+			position: absolute;
+			left: 0;
+			right: 0;
+			margin: auto;
+        }
+        #thumbnail {
+            border: 1px solid #666;
+        }
+        #result {
+            font-size: 128pt; /* Размер шрифта в пунктах */
+            float: right;
+            width: 120px;
+            height: 280px;
+            border: 5px solid #666;
+            text-align: center;
+            line-height: 280px;
+			transform: translateX(120px);
+        }
+		#container2{
+			text-align:center;
+		}
+		button{
+			width: 120px;
+			padding: 10px 20px;
+			margin: 10px;
+			text-align: center;
+			font-weight: bold;
+			background: none;
+		}
+		#sketchClearButton{
+            border: 1px solid #666;
+			color: #666;
+		}
+		#sketchRecogniseButton{
+            border: 1px solid #083;
+			color: #083;
+		}
+    </style>
+</head>
+<body>
+<main>
+    <h1>Recognizing hand-written digits from MNIST dataset with Brain.js. Neural Networks EXAMPLE.</h1>
+    <div id="container">
+        <canvas id="sketchpad" width="280" height="280">Sorry, your browser is not supported.</canvas>
+        <canvas id="thumbnail" width="28" height="28">Sorry, your browser is not supported.</canvas>
+        <div id="result"></div>
+        <div style="clear: right"></div>
+    </div>
+	<div id="container2">
+		<button type="button" id="sketchClearButton">Clear</button>
+		<button type="button" id="sketchRecogniseButton">Recognise</button>
+	</div>
+</main>
+
+
+</body></html>

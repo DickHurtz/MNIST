@@ -1,0 +1,21 @@
+Projekt Computational Intelligence (opis w jêzyku angielskim):
+Wymagania (Motivated Learning Software):
+na 3: 5 uruchomieñ (sprawdzanie ró¿nych parametrów), minimalny opis eksperymentów w jêzyku angielskim, na ka¿de uruchomienie 4 wykresy Pañstwa zdaniem najistotniejsze 
+na 4: 15 uruchomieñ, opis teoretyczny zagadenienia (uczenie motywowane),opis eksperymentów, wnioski
+na 5: 20 uruchomieñ, w³asny schemat œrodowiska (nie tylko nowe nazwy obiektów, bóli, czynnoœci, ale te¿ inne powi¹zania pomiêdzy nimi-tablica evpainhandle), opis eksperymentów, wnioski
+
+Uwaga: gdy jest powy¿ej 10 uruchomieñ mo¿na pokazaæ wykresy dla 10 istotniejszych eksperymentów.Pozosta³e opisywaæ zbiorczo, podsumowywaæ. 
+
+
+W przypadku projektu BlackBoxScenario (Reinformcement Learning):
+na 4: 10 uruchomieñ, w³asna implementacja funkcji uczenia agenta (RLfunction -obecnie jest to Q-learning), prostrzy opis zagadnienia i eksperymentów
+na 5: 20 uruchomieñ , b. dobry opis zagadniania
+
+Materia³y:
+MotivatedLearningSoft.zip
+Figures_MotivatedLearningSoft.docx
+
+Black Box Scenario - materia³y na stronie wyk³adu prof Starzyka "schedule", w ostatniej kolumnie przy wyk³adzie 2
+
+
+Inna wersja projektu: Symulacja agenta w innej formie z implementacj¹ algorytmu uczacego (Motivated Learning lub Reinforcement Learning) - do sutalenia z prowadz¹cym. 
